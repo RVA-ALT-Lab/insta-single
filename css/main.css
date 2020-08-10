@@ -1,0 +1,63 @@
+/*main embed site*/
+input {
+	width: 500px;
+	display: block;
+	margin: 20px 0;
+}
+
+.embed-area {
+	margin-top: 100px;
+}
+
+
+iframe {
+	width: 500px;
+	height: 800px;
+	border: 0;
+}
+
+/*single card stuff*/
+
+
+.card {
+	margin: 50px auto;
+	max-width: 500px;
+}
+
+.profile-row {
+	position: relative;
+}
+
+.profile-row a {
+	margin-left: 70px;
+	margin-top: 12px;
+	display: block;
+}
+
+.profile-image {
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	border: 3px solid rgba(0,0,0,0); 
+	border-radius: 50%;  
+	position: absolute;
+}
+
+.profile-bg {
+	width:50px;
+	height: 50px;
+	display: block;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#ffc107),to(#f80088));
+    background: linear-gradient(360deg,#ffc107 0,#f80088 100%);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.profile-row {
+	padding: 10px;
+	height: 70px;
+}
+
+.card-text {
+	padding: 10px;
+}
