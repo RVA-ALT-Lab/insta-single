@@ -1,10 +1,11 @@
 const sourceUrl = document.querySelector('#source-url');
 const embedCode = document.querySelector('#embed-code');
 
-sourceUrl.addEventListener('change', makeNew)
+sourceUrl.addEventListener('change', makeNewEmbed)
 
-function makeNew(){
-	console.log('ribbitt ribit')
+function makeNewEmbed(){
+	const instaUrl = sourceUrl.value;
+	console.log(instaUrl);
 }
 
 
