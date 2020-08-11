@@ -25,7 +25,7 @@ $instagram = new \InstagramScraper\Instagram();
 if (isset($_GET['url'])) {
     $media = $instagram->getMediaByUrl( $_GET['url']);
 } else {
-    $media = $instagram->getMediaByUrl('https://www.instagram.com/p/CDtfAnZlx_i/');
+    $media = $instagram->getMediaByUrl('https://www.instagram.com/p/CDpfjzMFyhP/');
 }
 
 $created = $media->getCreatedTime();
